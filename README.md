@@ -19,7 +19,7 @@ The goals of this challenge are for you to:
 - Languages: Python 3.7
 - Libraries: Numpy 1.17.4, scikit-learn 0.22.1 
 - Data Sources:
-  1. Loan Stats: {link}
+  1. Loan Stats: https://github.com/jbtrahin/Machine_Learing_1_Challenge/blob/master/Resources/LoanStats_2019Q1.csv
 
 ## Analysis
 

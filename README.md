@@ -24,22 +24,22 @@ The goals of this challenge are for you to:
 ## Analysis
 
 ### Naive Random Oversampling
-The precision score is 1.00 for predicting low-risk and 0.01 for predicting high-risk. The recall score is about the same (~0.67) for both categories. The balanced accuracy score is 0.67, which is pretty low.
+The precision score are 1.00 for predicting low-risk and 0.01 for predicting high-risk. The recall score is about the same (~0.67) for both categories. The balanced accuracy score is 0.67, which is pretty low.
 
 ### SMOTE Oversampling
-The precision score is 1.00 for predicting low-risk and 0.01 for predicting high-risk. The recall score is about the same (0.66 for low-risk and 0.69 for high-risk) for both categories. The balanced accuracy score is 0.68, which is pretty low.
+The precision score are 1.00 for predicting low-risk and 0.01 for predicting high-risk. The recall score is about the same (0.66 for low-risk and 0.69 for high-risk) for both categories. The balanced accuracy score is 0.68, which is pretty low.
 
 ### Undersampling
-The precision score is 1.00 for predicting low-risk and 0.01 for predicting high-risk. The recall score is about the same (0.47 for low-risk and 0.71 for high-risk) for both categories. The balanced accuracy score is 0.59, which is low.
+The precision score are 1.00 for predicting low-risk and 0.01 for predicting high-risk. The recall score is about the same (0.47 for low-risk and 0.71 for high-risk) for both categories. The balanced accuracy score is 0.59, which is low.
 
 ### Combination Sampling
-The precision score is 1.00 for predicting low-risk and 0.01 for predicting high-risk. The recall score is about the same (0.62 for low-risk and 0.75 for high-risk) for both categories. The balanced accuracy score is 0.68, which is pretty low.
+The precision score are 1.00 for predicting low-risk and 0.01 for predicting high-risk. The recall score is about the same (0.62 for low-risk and 0.75 for high-risk) for both categories. The balanced accuracy score is 0.68, which is pretty low.
 
 ### Balanced Random Forest Classifier
-The precision score is 1.00 for predicting low-risk and 0.04 for predicting high-risk. The recall score is about the same (0.91 for low-risk and 0.68 for high-risk) for both categories. The balanced accuracy score is 0.79, which is getting better than the other models.
+The precision score are 1.00 for predicting low-risk and 0.04 for predicting high-risk. The recall score is about the same (0.91 for low-risk and 0.68 for high-risk) for both categories. The balanced accuracy score is 0.79, which is getting better than the other models.
 
 ### Easy Ensemble AdaBoost Classifier
-The precision score is 1.00 for predicting low-risk and 0.08 for predicting high-risk. The recall score is about the same (0.95 for low-risk and 0.91 for high-risk) for both categories. The balanced accuracy score is 0.93, which is getting fairly high and trustworthy.
+The precision score are 1.00 for predicting low-risk and 0.08 for predicting high-risk. The recall score is about the same (0.95 for low-risk and 0.91 for high-risk) for both categories. The balanced accuracy score is 0.93, which is getting fairly high and trustworthy.
 
 ### Conclusion and Recommendations
 Looking at all the different models, we observe that Easy Ensemble AdaBoost Classifier performs the best and therefore we should move forward with that model for further analysis.
